@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth; /* ✅ Smooth scroll on click */
+}
+
+body {
+  body {
+  margin: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth; 
+}
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  padding: 8px 28px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
